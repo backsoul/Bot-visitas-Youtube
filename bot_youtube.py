@@ -14,7 +14,7 @@ lista_navegador.append(navegador_2)
 lista_navegador.append(navegador_3)
 
 for navegador in lista_navegador:
-    navegador.get('http://raboninco.com/14240325/https://tontuber.blogspot.com/2019/04/en-busca-de-la-felicidad.html')
+    navegador.get('https://www.youtube.com/watch?v=ZhjujRotooE')
 while(True):
     numero_random = randrange(0,len(lista_navegador))
     lista_navegador[numero_random].refresh()
